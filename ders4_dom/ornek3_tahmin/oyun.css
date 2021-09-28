@@ -56,16 +56,13 @@ h1 {
   text-align: center;
   transform: translate(-50%, 50%); /* Header'dan taşmayi gosteriyor*/
 }
-/*
+
 main {
   height: 600px;
   color: #eee;
   display: flex; /*alttakileri kullanabilmek için*/
-/* justify-content: space-around; /*yatay olarak*/
-/* align-items: center;
-  
-  /*dikey ortalar*/
-/*
+  justify-content: space-around; /*yatay olarak*/
+  align-items: center; /*dikey ortalar*/
 }
 .sağ {
   width: 400px;
@@ -85,9 +82,9 @@ main {
   font-size: 40px;
   text-align: center;
   width: 300px;
-  */
-/* display: block; */
-/*
+
+  /* display: block; */
+
   margin-bottom: 20px;
   padding: 50px;
 }
@@ -97,4 +94,3 @@ main {
 .puan {
   margin-bottom: 20px;
 }
-*/

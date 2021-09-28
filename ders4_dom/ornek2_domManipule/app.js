@@ -39,6 +39,10 @@ document.querySelector(".sil").onclick = function () {
 const parag = document.querySelector(".forH1");
 parag.innerHTML = `<h1>${"Programlama Dilleri"}</h1>`;
 
+//todo ************** SETATTRIBUTE metodu*********************
+document.querySelector(".checkbox").setAttribute("type", "checkbox");
+//-> checkbox'a type attribute'unu eklemis olduk
+
 // klavyeden bir tusa basildiginda buyusun/kuculsun
 document.querySelector(".textbox").onkeyup = function () {
   const checkbox = document.querySelector(".checkbox");
