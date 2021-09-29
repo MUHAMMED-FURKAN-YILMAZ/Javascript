@@ -31,6 +31,16 @@ document.querySelector(".ekle").onclick = function () {
   giris.value = "";
 };
 
+//?ekle butonuna basıldığında yeni bir li ekle upuzun yol
+// yeni girilen satiri saklamak icin bir li olusturduk.
+// const yeniLi = document.createElement("li");
+// yeni li icin textnode olusturduk
+// const textNode = document.createTextNode(satir.value);
+//olusturdugumuz texnode'u yeni li'ye bagladik.
+// yeniLi.appendChild(textNode);
+// yeni eklenen satiri var olan listeye (ul) baglayalim.
+// liste.appendChild(yeniLi);
+
 //sil butonuna tiklandiginda li elemani silinsin
 document.querySelector(".sil").onclick = function () {
   liste.removeChild(liste.lastElementChild);
