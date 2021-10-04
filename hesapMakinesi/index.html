@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hesap Makinesi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>HESAP MAKINESI</h1>
+
+    <div class="makine">
+      <form name="form">
+        <div class="ekranBorder">
+          <input
+            class="ekranBorder"
+            type="text"
+            placeholder=""
+            name="displayResult"
+          />
+        </div>
+        <!-- placeholder=""=> ekran yenilendiginde ekranda hiclik olsun -->
+        <div id="tuslarArka">
+          <div class="satir">
+            <button class="btn light bos">C</button>
+            <span> <strong> M.F.Y</strong></span>
+          </div>
+
+          <div class="satir">
+            <input
+              class="btn dark"
+              type="button"
+              name="b7"
+              value="7"
+              onClick="hesapEt(b7.value)"
+            />
+            <input
+              class="btn dark"
+              type="button"
+              name="b8"
+              value="8"
+              onClick="hesapEt(b8.value)"
+            />
+            <input
+              class="btn dark"
+              type="button"
+              name="b9"
+              value="9"
+              onClick="hesapEt(b9.value)"
+            />
+            <input
+              class="btn tomato"
+              type="button"
+              name="add"
+              value="+"
+              onClick="hesapEt(add.value)"
+            />
+          </div>
+
+          <div class="satir">
+            <input
+              class="btn dark"
+              type="button"
+              name="b4"
+              value="4"
+              onClick="hesapEt(b4.value)"
+            />
+            <input
+              class="btn dark"
+              type="button"
+              name="b5"
+              value="5"
+              onClick="hesapEt(b5.value)"
+            />
+            <input
+              class="btn dark"
+              type="button"
+              name="b6"
+              value="6"
+              onClick="hesapEt(b6.value)"
+            />
+            <input
+              class="btn tomato"
+              type="button"
+              name="sub"
+              value="-"
+              onClick="hesapEt(sub.value)"
+            />
+          </div>
+
+          <div class="satir">
+            <input
+              class="btn dark"
+              type="button"
+              name="b1"
+              value="1"
+              onClick="hesapEt(b1.value)"
+            />
+            <input
+              class="btn dark"
+              type="button"
+              name="b2"
+              value="2"
+              onClick="hesapEt(b2.value)"
+            />
+            <input
+              class="btn dark"
+              type="button"
+              name="b3"
+              value="3"
+              onClick="hesapEt(b3.value)"
+            />
+            <input
+              class="btn tomato"
+              type="button"
+              name="mul"
+              value="*"
+              onClick="hesapEt(mul.value)"
+            />
+          </div>
+
+          <div class="satir">
+            <input
+              class="btn dark"
+              type="button"
+              name="b0"
+              value="0"
+              onClick="hesapEt(b0.value)"
+            />
+            <input
+              class="btn dark"
+              type="button"
+              name="dot"
+              value="."
+              onClick="hesapEt(dot.value)"
+            />
+            <input
+              class="btn dark"
+              type="button"
+              name="div"
+              value="/"
+              onClick="hesapEt(div.value)"
+            />
+            <input
+              class="btn yellow"
+              type="button"
+              name="equal"
+              value="="
+              onClick="displayResult.value=eval(displayResult.value)"
+            />
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
